@@ -1,21 +1,95 @@
-<<<<<<< HEAD
-# React + Vite
+# 🌦️ React Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive weather application built using **React + Vite** that allows users to search for real-time weather information by city name.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* 🔍 Search weather by city name
+* 🌡️ Displays temperature, humidity, and weather conditions
+* 📱 Responsive UI design
+* ⚡ Fast performance using Vite
+* 🎨 Clean and user-friendly interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# React-Weather-Dashboard
-React Weather Dashboard is a responsive web application built using React that allows users to check real-time weather information for any city around the world. The application fetches live weather data from a weather API and displays key details such as temperature, humidity, and weather conditions in an interactive and user-friendly interface.
->>>>>>> 4c4cdffe4563144b6b2ca52bc42ef1627c90b138
+* **Frontend:** React, CSS
+* **Build Tool:** Vite
+* **API:** Weather API (e.g., OpenWeatherMap)
+
+---
+
+## 📂 Project Structure
+
+```
+React-Weather-Dashboard/
+│── public/
+│── src/
+│   ├── App.jsx
+│   ├── WeatherApp.jsx
+│   ├── SearchBox.jsx
+│   ├── InfoBox.jsx
+│   ├── App.css
+│   └── main.jsx
+│── index.html
+│── package.json
+│── vite.config.js
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/React-Weather-Dashboard.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd React-Weather-Dashboard
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Run the project:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open in browser:
+
+   ```
+   http://localhost:5173/
+   ```
+
+---
+
+## 🌐 API Configuration
+
+* Get your API key from a weather service (like OpenWeatherMap)
+* Add it inside your project (usually in `SearchBox.jsx` or config file)
+
+---
+
+## 📸 Screenshots
+![alt text](image.png)
+
+
+---
+
+## 👨‍💻 Author
+
+**Rohit Shinde**
+
+---
